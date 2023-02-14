@@ -1,0 +1,12 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "automock": false,
+    "transform":{"^.+\\.ts?$":"ts-jest"},
+    "modulePathIgnorePatterns": [
+        "dist/"
+    ],
+    "transformIgnorePatterns": [
+        "<rootDir>/node_modules/"
+    ]
+}

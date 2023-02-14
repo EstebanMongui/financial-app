@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "strict": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "declaration": true
+    },
+    "include": ["src/*.ts", "*.js"],
+    "exclude": ["./*.json", "node-modules"],
+    "watchOptions": {
+        "synchronousWatchDirectory": true
+    }
+}
